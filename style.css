@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+	color: 	#FF00FF;
+	background-color: #000000;
+}
+h1{
+	text-align: center;
+}
+
+a{
+	background-color: #FF00FF;
+	color: white;
+	padding: 1em 1.5em;
+	text-transform: uppercase;
+	box-shadow: 0 5px 0 #BA55D3;
+	position: relative;
+}
+
+a:hover{
+	background-color #555;
+}
+
+a:active{
+	box-shadow: none;
+	top: 5px;
+}
+.row {
+    margin-bottom: 30px;
+	text-align: center;
+}
+
+.column {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+	text-align: center;
+}
