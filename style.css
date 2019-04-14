@@ -37,3 +37,49 @@ a:active{
     vertical-align: top;
 	text-align: center;
 }
+
+img {
+    width: 180px;
+    height: 260px;
+}
+
+.game   {
+    float: left;
+    margin: 20px;
+    
+}
+
+.game a {
+    color: 	#FF00FF;
+	background-color: #000000;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.game a p  {
+    text-align: center;
+    width: 180px;
+    margin: 0px 20px;
+    
+}
+
+.game a img:hover{
+    opacity: .5;
+}
+
+.parts{
+    text-align: left;
+    margin-left: 25%;
+}
+
+.parts a    {
+    box-shadow: none;
+    background-color: #FF00FF;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.parts a:hover  {
+    opacity: .5;
+}
