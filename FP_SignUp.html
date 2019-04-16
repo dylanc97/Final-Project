@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>PC builder - Sign Up</title>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <script type="text/javascript" rel="script" src="validateSignUp.js" defer>
@@ -40,7 +41,7 @@
             </div>
              <!--Error message-->
             <div class="error row" id="err4">
-                <p>*The max price must be at least $1000</p>
+                <p>*The max price must be at least $750</p>
             </div>
             <br/>
             <div class="row">
@@ -50,6 +51,15 @@
             <!--Error message-->
             <div class="error row" id="err5">
                 <p>*Your password must have at least 10 characters</p>
+            </div>
+	<div class="row">
+                <span style="vertical-align: top;">Pick a CPU preference</span>
+                <div id="cpuType">
+                    <input type="radio" value="xx" name="cpuType" checked>INTEL
+                    <br/>
+                    <input type="radio" value="xy" name="cpuType">AMD
+                    <br/>
+                </div>
             </div>
             <div class="row">
                 <input id="submit-btn" name="submit-btn" type="submit" value="Sign Up"/>
