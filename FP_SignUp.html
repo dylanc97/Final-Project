@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="style.css"/>
 	<title>PC builder - Sign Up</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" rel="script" src="validateSignUp.js" defer>
+    </script>
 </head>
 <body>
 	<div>
 		<h1>
 			Sign Up:
 		</h1>
-		<div class="row">
-                <label for="name">Name : </label>
-                <input id="name" name="name" type="text"/>               
-        </div>
-		<br/>
-		<div class="row">
-                <label for="username">Username: </label>
-                <input id="username" name="username" type="text"/>                
-        </div>
-		<br/>
-		<div class="row">
-                <label for="price">Max price: </label>
-                <input id="price" name="price" type="price"/>                
-        </div>
-		<br/>
-		<div class="row">
-                <label for="password">Password: </label>
-                <input id="password" name="password" type="password"/>                
-        </div>
-		<div class="row">
+        <form id="signUp">
+            <div class="row">
+                    <label for="name">Name : </label>
+                    <input id="name" name="name" type="text"/>               
+            </div>
+            <!--Error message-->
+            <div class="error row" id="err1">
+                <p>*Your name must start with a capital letter</p>
+            </div>
+            <br/>
+            <div class="row">
+                    <label for="username">Username: </label>
+                    <input id="username" name="username" type="text"/>                
+            </div>
+            <!--Error message-->
+            <div class="error row" id="err2">
+                <p>*Your username must have at least 8 characters</p>
+            </div>
+            <br/>
+            <div class="row">
+                    <label for="price">Max price: </label>
+                    <input id="price" name="price" type="price"/>                
+            </div>
+            <!--Error message-->
+            <div class="error row" id="err3">
+                <p>*The max price must contain only digits</p>
+            </div>
+             <!--Error message-->
+            <div class="error row" id="err4">
+                <p>*The max price must be at least $1000</p>
+            </div>
+            <br/>
+            <div class="row">
+                    <label for="password">Password: </label>
+                    <input id="password" name="password" type="password"/>             
+            </div>
+            <!--Error message-->
+            <div class="error row" id="err5">
+                <p>*Your password must have at least 10 characters</p>
+            </div>
+            <div class="row">
                 <input id="submit-btn" name="submit-btn" type="submit" value="Sign Up"/>
-        </div>
+            </div>
+            <!--Error message-->
+            <div class="error row" id="err6">
+                <p>*Not submitted, check form fields</p>
+            </div>
+        </form>
 	</div>
 </body>
 </html>
