@@ -83,3 +83,8 @@ img {
 .parts a:hover  {
     opacity: .5;
 }
+
+.error  {
+    color: #ff0000;
+    display: none;
+}
