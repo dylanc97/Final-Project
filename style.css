@@ -3,7 +3,7 @@ body {
     font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
 	color: 	#FF00FF;
-	background-color: #000000;
+	background-color: #36393E;
 }
 h1{
 	text-align: center;
@@ -51,7 +51,7 @@ img {
 
 .game a {
     color: 	#FF00FF;
-	background-color: #000000;
+	background-color: #36393E;
     text-decoration: none;
     box-shadow: none;
 }
