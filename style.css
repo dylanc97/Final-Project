@@ -1,5 +1,7 @@
 #parent{
 	position: relative;
+	width:500px;
+	height:600px;
 }
 
 body {
