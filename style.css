@@ -47,9 +47,10 @@
 	color: black;
 	font-size: 32pt;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
 	position: absolute;
 	text-align: center;
-  	top:80%; 
+  	top:81%; 
 	left:0%;
 	height: 25%; 
 	width:100%; 
