@@ -79,15 +79,6 @@
   	top: 22%;
 }
 
-.black-line-bottom-3{
- 	background-color: black;
-	position: absolute;
- 	height: .7%;
- 	width: 100%;
-	left: 0%;
-  	top: 100%;
-}
-
 .black-text{
 	color: black;
 	font-size: 32pt;
