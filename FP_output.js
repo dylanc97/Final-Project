@@ -4,7 +4,7 @@ function testJS(gName, imgName) {
 	localStorage["displayName"] = null;
 	localStorage["displayImg"] = null;
 	localStorage["displayName"] = gName;
-	localStorage["displayImg"] = imgName;
+	localStorage["displayImg"] = "images/" + imgName;
 }
 
 function onload() {

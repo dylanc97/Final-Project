@@ -7,12 +7,19 @@
     <script type="text/javascript" rel="script" src="validateSignUp.js" defer>
     </script>
 </head>
+
+<!-- Creates page header -->
+<header>
+	<div>
+<img id="parent" src="pcbuilderborderfinal.png" alt="header" />
+</div>
+
 <body>
 	<div>
 		<h1>
 			Sign Up:
 		</h1>
-        <form id="signUp">
+        <form id="signUp" method="post" action="FP_addUser.php">
             <div class="row">
                     <label for="name">Name : </label>
                     <input id="name" name="name" type="text"/>               
