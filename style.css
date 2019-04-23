@@ -5,6 +5,16 @@
 	margin-left: 32.5%; 
 }
 
+.black-line-top{
+ 	background-color: black;
+	position: absolute;
+ 	height: .5%;
+ 	width: 100%;
+	left: 0%;
+  	top: 25%;
+        z-index:-4;
+}
+
 body {
     box-sizing: border-box;
     font-family: Verdana, Arial, sans-serif;
