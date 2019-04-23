@@ -43,6 +43,15 @@
   	top: 96.95%;
 }
 
+.black-line-left{
+ 	background-color: black;
+	position: absolute;
+ 	height: 100%;
+ 	width: 20%;
+	left: 0%;
+  	top: 22%;
+}
+
 .black-text{
 	color: black;
 	font-size: 32pt;
