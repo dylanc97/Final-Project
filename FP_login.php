@@ -13,7 +13,7 @@
 
 	$sql = mysqli_query($conn, "SELECT userName FROM user WHERE user.userName='". $_POST["username"] . "' AND user.password='" . $_POST["password"] . "';");
 	if(mysqli_num_rows($sql) == 1){
-		echo"Login Successfull";
+		echo"Login Successful";
 	}
 	else{
 		echo"ERROR incorrect username or password";
