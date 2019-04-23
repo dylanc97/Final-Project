@@ -25,8 +25,8 @@
         z-index: -5;
 }
 
-.purple-box{
-	background-color: #FF00FF;
+.grey-box{
+	background-color: #grey;
 	position: absolute;
 	height:22%;
 	width:100%; 
