@@ -16,12 +16,12 @@
 }
 
 .black-line-bottom{
- 	background-color: grey;
+ 	background-color: black;
 	position: absolute;
  	height: .5%;
  	width: 100%;
 	left: 0%;
-  	top: 120%;
+  	top: 75%;
         z-index: 1;
 }
 
