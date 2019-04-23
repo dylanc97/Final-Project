@@ -1,13 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>PC Builder - Output</title>
     <link type="text/css" rel="stylesheet" href="style.css"/>
-    
+    <script type="text/javascript" rel="script" src="FP_output.js" defer>
+    </script>
+	
 </head>
-<body>
+<body onload="onload();">
 
 <div>
     <div class="column" style="float: left">
@@ -15,9 +16,9 @@
             <h1>Your game:</h1>
         </div>
         <div>
-            <img  src="game1.jpg" alt="Cover of chosen game">
+            <img id="imageid" src="addGame.jpg" alt="Cover of chosen game">
         </div>
-        <h2>Game name</h2>
+        <h2 id="gName">Game name</h2>
     </div>
     <div class="column" style="float: left">
         <h1>Your cost: $</h1>
