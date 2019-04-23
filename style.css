@@ -44,10 +44,10 @@
 }
 
 .black-line-left{
- 	background-color: black;
+ 	background-color: #FF00FF;
 	position: absolute;
  	height: 100%;
- 	width: 20%;
+ 	width: 13%;
 	left: 0%;
   	top: 22%;
 }
