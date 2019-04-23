@@ -25,6 +25,16 @@
         z-index: -5;
 }
 
+.purple-box{
+	background-color: purple;
+	position: absolute; 
+	top:208px; 
+	left:650px; 
+	width:650px; 
+	height:400px;
+ 	z-index: -6;
+}
+
 body {
     box-sizing: border-box;
     font-family: Verdana, Arial, sans-serif;
