@@ -43,12 +43,39 @@
   	top: 96.95%;
 }
 
-.black-line-left{
+.purple-box-left{
  	background-color: #FF00FF;
 	position: absolute;
  	height: 100%;
  	width: 13%;
 	left: 0%;
+  	top: 23%;
+}
+
+.black-line-left{
+ 	background-color: black;
+	position: absolute;
+ 	height: 100%;
+ 	width: .7%;
+	left: 13%;
+  	top: 22%;
+}
+
+.purple-box-right{
+ 	background-color: #FF00FF;
+	position: absolute;
+ 	height: 100%;
+ 	width: 13%;
+	right: 0%;
+  	top: 23%;
+}
+
+.black-line-right{
+ 	background-color: black;
+	position: absolute;
+ 	height: 100%;
+ 	width: .7%;
+	right: 13%;
   	top: 22%;
 }
 
