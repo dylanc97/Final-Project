@@ -26,13 +26,12 @@
 }
 
 .purple-box{
-	background-color: purple;
+	background-color: #FF00FF;
 	position: absolute;
 	height:.20%;
 	width:100%; 
 	left:0%;
 	top:75%;
- 	z-index: -6;
 }
 
 body {
