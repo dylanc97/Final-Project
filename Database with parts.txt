@@ -28,15 +28,15 @@ INSERT INTO fp_db.user (name, userName, password, maxPrice, company) VALUES
 
 INSERT INTO fp_db.game (name, genre, link) VALUES
 ("Fortnite", "Battle Royale", "images/game1.jpg"),
-("APEX Legends", "Battle Royale", "images/apeximj.jpg"),
-("Playerunknown's Battlegrounds", "Battle Royale", "images/PUBGimg.jpg"),
+("APEX Legends", "Battle Royale", "images/apeximg.jpg"),
+("Playerunknowns Battlegrounds", "Battle Royale", "images/PUBGimg.jpg"),
 ("Call Of Duty", "Battle Royale", "images/CODimg.jpg"),
 ("Grand Theft Auto 5", "Open World", "images/GTAimg.jpg"),
 ("World of Warcraft", "Open World", "images/WOWimg.jpg"),
-("Counter-Strike", "Standard", "images/CSGOimg"),
+("Counter Strike", "Standard", "images/CSGOimg.jpg"),
 ("Overwatch", "Standard", "images/Overwatchimg.jpg"),
 ("Battlefield 5", "Standard", "images/BF5img.jpg"),
-("Rainbow 6 siege", "Standard", "images/RSSimg.jpg");
+("Rainbow Six Siege", "Standard", "images/RSSimg.jpg");
 
 INSERT INTO fp_db.parts (name, category, price, company, link) VALUES
 
