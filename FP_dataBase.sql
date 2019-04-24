@@ -12,6 +12,7 @@ PRIMARY KEY (`userName`));
 CREATE TABLE IF NOT EXISTS `fp_db`.`game` (
   `name` VARCHAR(45) NOT NULL,
   `genre` VARCHAR(45) NOT NULL,
+  `link` VARCHAR(45) NOT NULL,
 PRIMARY KEY (`name`));
 
 CREATE TABLE IF NOT EXISTS `fp_db`.`parts` (
@@ -25,17 +26,17 @@ PRIMARY KEY (`Name`));
 INSERT INTO fp_db.user (name, userName, password, maxPrice, company) VALUES
 ("Dylan Cicale", "dylanc97", "The", 1200, "INTEL");
 
-INSERT INTO fp_db.game (name, genre) VALUES
-("Fortnite", "Battle Royale"),
-("APEX Legends", "Battle Royale"),
-("Playerunknown's Battlegrounds", "Battle Royale"),
-("Call Of Duty", "Battle Royale"),
-("Grand Theft Auto 5", "Open World"),
-("World of Warcraft", "Open World"),
-("Counter-Strike", "Standard"),
-("Overwatch", "Standard"),
-("Battlefield 5", "Standard"),
-("Rainbow 6 siege", "Standard");
+INSERT INTO fp_db.game (name, genre, link) VALUES
+("Fortnite", "Battle Royale", "images/game1.jpg"),
+("APEX Legends", "Battle Royale", "images/apeximg.jpg"),
+("Playerunknown's Battlegrounds", "Battle Royale", "images/PUBGimg.jpg"),
+("Call Of Duty", "Battle Royale", "images/CODimg.jpg"),
+("Grand Theft Auto 5", "Open World", "images/GTAimg.jpg"),
+("World of Warcraft", "Open World", "images/WOWimg.jpg"),
+("Counter-Strike", "Standard", "images/CSGOimg.jpg"),
+("Overwatch", "Standard", "images/Overwatchimg.jpg"),
+("Battlefield 5", "Standard", "images/BF5img.jpg"),
+("Rainbow 6 siege", "Standard", "images/RSSimg.jpg");
 
 select * from fp_db.game;
 select * from fp_db.user;
