@@ -22,7 +22,12 @@
 	
 	$username = $_GET['username'];
 	$gname = $_GET['gname'];
- 
+	
+	// Get img link
+	$sql = mysqli_query($conn, "SELECT link FROM game WHERE game.name='" . $gname ."';");
+	$result = mysqli_fetch_row($sql);
+	$imgLink = $result[0];
+	
 	// Get the users maxPrice
 	$sql = mysqli_query($conn, "SELECT maxPrice FROM user WHERE user.userName='" . $username ."';");
 	if($sql === false){
@@ -71,7 +76,7 @@
 	// For INTEL 1
 	if($price > 750){
 				//////////////////////////////////// MAX /////////////////////////////////////////////////////////
-		if($price > 1050){
+		if($price > 1800){
 			//////////////////////////////////// 1 ///////////////////////////////////////////////////////////
 		if ($flag == 1){
 			if($company == "intel"){
@@ -679,7 +684,7 @@
             <h1> <?php echo $username?>'s game:</h1>
         </div>
         <div>
-            <img id="imageid" src="images/addGame.jpg" alt="Cover of chosen game">
+            <img id="imageid" src="../<?php echo $imgLink ?>" alt="Cover of chosen game">
         </div>
         <h2 id="gName"><?php echo $gname ?></h2>
     </div>
