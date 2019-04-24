@@ -12,6 +12,7 @@ PRIMARY KEY (`userName`));
 CREATE TABLE IF NOT EXISTS `fp_db`.`game` (
   `name` VARCHAR(45) NOT NULL,
   `genre` VARCHAR(45) NOT NULL,
+  `link` VARCHAR(20) NOT NULL,
 PRIMARY KEY (`name`));
 
 CREATE TABLE IF NOT EXISTS `fp_db`.`parts` (
@@ -25,8 +26,8 @@ PRIMARY KEY (`Name`));
 INSERT INTO fp_db.user (name, userName, password, maxPrice, company) VALUES
 ("Dylan Cicale", "dylanc97", "The", 1200, "INTEL");
 
-INSERT INTO fp_db.game (name, genre) VALUES
-("Fortnite", "Battle Royale"),
+INSERT INTO fp_db.game (name, genre, link) VALUES
+("Fortnite", "Battle Royale", "images/game1.jpg"),
 ("APEX Legends", "Battle Royale"),
 ("Playerunknown's Battlegrounds", "Battle Royale"),
 ("Call Of Duty", "Battle Royale"),
