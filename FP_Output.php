@@ -10,15 +10,15 @@
 </head>
 
 <?php
-	$servername = "localhost";
-	$user = "root";
-
-	$conn = new mysqli($servername, $user);
+	$servername = "dbsrv2.cs.fsu.edu";
+	$user = "avaglian";
+	$password = "8me5rQJNd2eN";
+	$conn = new mysqli($servername, $user, $password);
 	
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	}
-	mysqli_select_db($conn, "fp_db") ;
+	mysqli_select_db($conn, "avagliandb");
 	
 	$username = $_GET['username'];
 	$gname = $_GET['gname'];
