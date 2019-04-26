@@ -9,7 +9,7 @@ function showForm(){
 
 // This is the handler in the backed that will process request
 //What do we put here????
-const resource = 'http://localhost:8080/addGame.php';
+const resource = 'http://ww2.cs.fsu.edu/~avaglian/FinalProject/addGame.php';
 
 //Event handler for the form that uses GET request
 function get_request(event) {
